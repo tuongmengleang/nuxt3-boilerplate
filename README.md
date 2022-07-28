@@ -1,4 +1,4 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 starter boilerplate with a lot of features. Nuxt3 + Tailwindcss3 + VueUse + Vuei18n 
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
