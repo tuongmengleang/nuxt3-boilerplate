@@ -8,9 +8,7 @@ export {}
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     'IconLa:language': typeof import('~icons/la/language')['default']
-    'IconMaterialSymbols:homeOutlineSharp': typeof import('~icons/material-symbols/home-outline-sharp')['default']
     'IconUil:clock': typeof import('~icons/uil/clock')['default']
-    'IconUil:githubAlt': typeof import('~icons/uil/github-alt')['default']
     'IconUil:laptop': typeof import('~icons/uil/laptop')['default']
     'IconUil:moon': typeof import('~icons/uil/moon')['default']
     'IconUil:sun': typeof import('~icons/uil/sun')['default']
