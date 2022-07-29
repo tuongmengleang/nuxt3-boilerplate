@@ -5,7 +5,9 @@
     >
       <!-- Logo App -->
       <div class="logo flex items-center gap-3">
-        <img src="/favicon.ico" alt="nuxt3 boilerplate" />
+        <NuxtLink to="/">
+          <img src="/favicon.ico" alt="nuxt3 boilerplate" />
+        </NuxtLink>
         <h1 class="sm:hidden <sm:hidden md:block">{{ app.name }}</h1>
       </div>
       <!-- Menu Navbar -->

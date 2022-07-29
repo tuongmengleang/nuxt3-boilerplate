@@ -15,6 +15,10 @@ pages:
     nav: test
     title: test
     description: this is a test page
+    counter: counter
+    increment: increment
+    decrement: decrement
+    reset: reset
   post:
     nav: post
     title: post

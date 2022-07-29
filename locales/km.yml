@@ -1,6 +1,6 @@
 components:
   language_switcher:
-    change_language: ប្ដូរភាសា
+    change_language: ប្ដូរ​ភាសា
   theme_switcher:
     theme: ប្រធានបទ
     change_theme: ផ្លាស់ប្តូរប្រធានបទ
@@ -10,11 +10,15 @@ pages:
   home:
     nav: ផ្ទះ
     title: ផ្ទះ
-    description: នេះជាទំព័រដើម
+    description: នេះគឺជាទំព័រដើម
   test:
     nav: សាកល្បង
     title: សាកល្បង
     description: នេះគឺជាទំព័រសាកល្បង
+    counter: បញ្ជរ
+    increment: ការកើនឡើង
+    decrement: ការថយចុះ
+    reset: កំណត់ឡើងវិញ
   post:
     nav: ប្រកាស
     title: ប្រកាស

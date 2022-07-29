@@ -4,7 +4,7 @@
     class="fixed bottom-0 w-full bg-white dark:bg-gray-900 md:hidden sm:block <sm:block rounded-t-xl"
   >
     <ul class="flex flex-row items-center justify-around py-4">
-      <li v-for="(item, i) in menus" :key="i">
+      <li v-for="(item, i) in menus" :key="i" class="text-center">
         <NuxtLink
           :to="item.route ? item.route : undefined"
           class="navbar-mobile w-full text-gray-500 dark:text-gray-300 hover:text-black dark:hover:text-white text-sm capitalize"
