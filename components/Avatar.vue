@@ -11,12 +11,12 @@ const props = defineProps({
   circle: {
     type: Boolean,
     default: false,
-  },
+  }
 })
 
 // state:styles
 const defaultStyle = `
-  w-10 h-10 rounded-full overflow-hidden transition-all
+  w-10 h-10 rounded-full overflow-hidden transition-all}
 `
 
 // const avatarSize = computed(() => props.size + 'px')
@@ -31,11 +31,8 @@ const avatarSize = props.size + 'px'
 
 <style lang="scss" scoped>
 .avatar {
+  position: relative;
   width: v-bind(avatarSize);
   height: v-bind(avatarSize);
-}
-img {
-  width: 100%;
-  height: 100%;
 }
 </style>

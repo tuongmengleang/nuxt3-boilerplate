@@ -4,12 +4,10 @@
       class="container w-full flex flex-row items-center justify-between px-5 py-3"
     >
       <!-- Logo App -->
-      <div class="logo flex items-center gap-3">
-        <NuxtLink to="/">
-          <img src="/favicon.ico" alt="nuxt3 boilerplate" />
-        </NuxtLink>
+      <NuxtLink to="/" class="logo flex items-center gap-3">
+        <img src="/favicon.ico" alt="nuxt3 boilerplate"/>
         <h1 class="sm:hidden <sm:hidden md:block">{{ app.name }}</h1>
-      </div>
+      </NuxtLink>
       <!-- Menu Navbar -->
       <ul class="navbar-menu sm:hidden <sm:hidden md:flex items-center">
         <li v-for="(item, i) in menus" :key="i">
@@ -32,7 +30,7 @@
         >
           <img
             class="w-full h-full"
-            src="https://lh3.googleusercontent.com/nHkxDS7GnJObndKdjzc8uxnSofYmWD7LFigF-z63CCZDsl37WIhpvSaMak4yhDltA8Q76nqt6-UGz_DPUDkZu2rvuYMTQjOAOASCog=w600"
+            src="https://avatars.githubusercontent.com/u/56217606?v=4"
             alt=""
           />
         </a>
