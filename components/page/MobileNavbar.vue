@@ -1,7 +1,7 @@
 <template>
   <div
     ref="navigationBottomBar"
-    class="fixed bottom-0 w-full bg-white dark:bg-gray-900 md:hidden sm:block <sm:block rounded-t-xl"
+    class="fixed bottom-0 w-full bg-white dark:bg-gray-900 md:hidden sm:block <sm:block rounded-t-xl z-20"
   >
     <ul class="flex flex-row items-center justify-around py-4">
       <li v-for="(item, i) in menus" :key="i" class="text-center">

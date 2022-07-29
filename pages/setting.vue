@@ -29,14 +29,28 @@
                   <label class="label">
                     <span class="label-text dark:text-gray-200">First name</span>
                   </label>
-                  <input type="text" v-model="firstName" placeholder="Tuong" class="input w-full bg-gray-100 dark:bg-gray-700" />
+                  <FormInput type="text" v-model="firstName" placeholder="Tuong" class="input w-full bg-gray-100 dark:bg-gray-700" />
                 </div>
 
                 <div class="form-group -mt-5">
                   <label class="label">
                     <span class="label-text dark:text-gray-200">Last name</span>
                   </label>
-                  <input type="text" v-model="lastName" placeholder="Mengleang" class="input w-full bg-gray-100 dark:bg-gray-700" />
+                  <FormInput type="text" v-model="lastName" placeholder="Mengleang" class="input w-full bg-gray-100 dark:bg-gray-700" />
+                </div>
+
+                <div class="form-group -mt-5">
+                  <label class="label">
+                    <span class="label-text dark:text-gray-200">Email address</span>
+                  </label>
+                  <FormInput type="text" v-model="email" placeholder="leang.dev@gmail" class="input w-full bg-gray-100 dark:bg-gray-700" />
+                </div>
+
+                <div class="form-group -mt-5">
+                  <label class="label">
+                    <span class="label-text dark:text-gray-200">Phone number</span>
+                  </label>
+                  <FormInput type="text" v-model="phone" placeholder="(+855) 968 255 313" class="input w-full bg-gray-100 dark:bg-gray-700" />
                 </div>
 
               </div>

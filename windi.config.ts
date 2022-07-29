@@ -8,7 +8,7 @@ import type { Plugin } from 'windicss/types/interfaces'
 import TypographyPlugin from 'windicss/plugin/typography'
 import AspectRatioPlugin from 'windicss/plugin/aspect-ratio'
 import FiltersPlugin from 'windicss/plugin/filters'
-import DaisyUI from 'daisyui'
+// import DaisyUI from 'daisyui'
 
 const MyTheme = {
   colors: {
@@ -62,6 +62,6 @@ export default defineConfig({
     FiltersPlugin as Plugin,
     TypographyPlugin as Plugin,
     AspectRatioPlugin as Plugin,
-    DaisyUI as Plugin
+    // DaisyUI as Plugin
   ] as Plugin[],
 })
