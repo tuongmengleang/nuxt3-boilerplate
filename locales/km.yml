@@ -8,8 +8,8 @@ pages:
   index:
     title: nuxt3[]boilerplate
   home:
-    nav: ទំព័រដើម
-    title: ទំព័រដើម
+    nav: ផ្ទះ
+    title: ផ្ទះ
     description: នេះគឺជាទំព័រដើម
   test:
     nav: សាកល្បង
@@ -22,7 +22,7 @@ pages:
   post:
     nav: ប្រកាស
     title: ប្រកាស
-    description: នេះគឺជាទំព័រប្រកាស
+    description: នេះជាទំព័រប្រកាស
   setting:
     nav: ការកំណត់
     title: ការកំណត់
