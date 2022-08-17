@@ -17,6 +17,7 @@
     "start": "node .output/server/index.mjs",
     "serve": "serve dist/",
     "clean": "rm -rf .nuxt dist .output",
+    "remove": "rm -rf node_modules yarn.lock",
     "generate:locales": "node tools/translator.js ./locales en.yml"
   },
   "devDependencies": {
@@ -25,7 +26,6 @@
     "@intlify/nuxt3": "^0.2.3",
     "@nuxtjs/eslint-config-typescript": "^10.0.0",
     "@nuxtjs/eslint-module": "^3.1.0",
-    "@nuxtjs/svg": "^0.4.0",
     "@pinia/nuxt": "^0.4.0",
     "@vueuse/nuxt": "^9.0.0",
     "babel-eslint": "^10.1.0",
@@ -36,7 +36,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^9.3.0",
     "js-yaml": "^4.1.0",
-    "nuxt": "3.0.0-rc.6",
+    "nuxt": "3.0.0-rc.8",
     "nuxt-windicss": "^2.5.0",
     "pinia": "^2.0.18",
     "postcss": "^8.4.14",
