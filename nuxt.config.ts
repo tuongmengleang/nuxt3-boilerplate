@@ -11,6 +11,9 @@ declare module '@nuxt/schema' {
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
+  // server side rendering mode
+  ssr: true,
+
   // app
   app: {
     head: {
@@ -40,13 +43,22 @@ export default defineNuxtConfig({
 
   plugins: [],
 
-  modules: ['nuxt-windicss', '@intlify/nuxt3', '@vueuse/nuxt', '@pinia/nuxt'],
+  modules: [
+    'nuxt-windicss',
+    '@intlify/nuxt3',
+    '@vueuse/nuxt',
+    '@pinia/nuxt',
+  ],
 
   build: {
     transpile: ['@headlessui/vue'],
   },
 
-  buildModules: ['@nuxtjs/eslint-module', 'unplugin-icons/nuxt'],
+  buildModules: [
+    '@nuxtjs/eslint-module',
+    'unplugin-icons/nuxt',
+    '@nuxtjs/svg'
+  ],
 
   experimental: {
     reactivityTransform: true,
