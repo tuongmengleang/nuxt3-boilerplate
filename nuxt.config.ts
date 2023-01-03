@@ -1,13 +1,5 @@
-import { defineNuxtConfig } from 'nuxt'
-import { IntlifyModuleOptions } from '@intlify/nuxt3'
 import UnpluginComponentsVite from 'unplugin-vue-components/vite'
 import IconsResolver from 'unplugin-icons/resolver'
-
-declare module '@nuxt/schema' {
-  interface NuxtConfig {
-    intlify?: IntlifyModuleOptions
-  }
-}
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
@@ -48,6 +40,7 @@ export default defineNuxtConfig({
     '@intlify/nuxt3',
     '@vueuse/nuxt',
     '@pinia/nuxt',
+    'unplugin-icons/nuxt',
   ],
 
   build: {
@@ -56,7 +49,6 @@ export default defineNuxtConfig({
 
   buildModules: [
     '@nuxtjs/eslint-module',
-    'unplugin-icons/nuxt'
   ],
 
   experimental: {
